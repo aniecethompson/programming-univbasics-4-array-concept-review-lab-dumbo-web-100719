@@ -1,9 +1,6 @@
 def find_element_index(array, value_to_find)
-  i = value_to_find
-  while i < array.length do
-    array.index(value_to_find)
-    i += 1
-  end
+  array.length.times == value_to_find
+  return value_to_find.index
 end
 
 
