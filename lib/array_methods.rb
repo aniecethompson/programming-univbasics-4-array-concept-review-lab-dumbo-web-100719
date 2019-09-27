@@ -5,9 +5,8 @@ end
 
 
 def find_max_value(array)
-  last = array.length
   array.sort!
-  array[last]
+  
 end
 
 def find_min_value(array)
