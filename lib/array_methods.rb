@@ -5,8 +5,8 @@ end
 
 
 def find_max_value(array)
-  array.sort!
   last = array.length
+  array.sort!
   array[last]
 end
 
